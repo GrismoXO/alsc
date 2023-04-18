@@ -1,0 +1,841 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex !important; 
+    justify-content: space-between !important;
+    align-items: center !important;
+    background: rgb(255,255,255);
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+    
+}
+
+.logo{
+    height: 15vh !important;
+} 
+
+nav a {
+    color: #015FA7 !important;
+}
+
+nav .lien {
+    background-color: #6EBB13;
+    color: #015FA7;
+}
+
+
+#dark {
+    margin-left: 1vw;
+}
+
+.fa-solid .fa-moon {
+    font-size: xx-small;
+}
+
+nav .testtest {
+    background-color: #2C3333 !important;
+    border: 1px solid transparent !important;
+}
+/* --footer */
+
+footer {
+    display: flex !important;
+    justify-content: space-between !important;
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+    padding-top: 3vh !important;
+    padding-bottom: 3vh !important;
+    background-color: #f5f5f5 ;
+    border-top: 0,031rem solid #000 !important;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+.footer_div {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.footer_gauche {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_footer {
+    width: 25vw;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taille_logo_footer {
+    width: 12vw;
+}
+
+footer h2 {
+    color: black ;
+}
+
+.footer_contact {
+    border: 1px #015FA7 solid;
+    height: fit-content;
+    padding: 1vh 2vw 2vh 2vw;
+    border-radius: 20px;
+}
+
+footer h3 {
+    margin-top: 5vh;
+}
+
+.footer_bouton {
+    background-color: #6EBB13;
+    padding: 1vh 1vw 1vh 1vw;
+
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+/* ********************************************************************** */
+
+.espaceur {
+    height: 7vh;
+}
+
+.espaceur_2 {
+    height: 2vh;
+}
+
+.hero_espaceur {
+    height: 3vh;
+}
+
+.titre_espaceur {
+    height: 4vh;
+}
+
+/* -- accueil -- */
+
+.hero {
+    height: 66vh;
+    background-image: url('../img/IMG_6179.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre_hero {
+    background-color: rgb(255, 255, 255, 0.7);
+    color: #015FA7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3vh 4vw 3vh 4vw;
+}
+
+.accueil_1 {
+    display: flex;
+
+}
+
+.accueil_1_sous_partie {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.accueil_1_sous_partie i {
+    margin-bottom: 3vh;
+    font-size: xx-large;
+}
+
+.interieur {
+    border-left: 1px solid black;
+}
+
+.separateur {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.accueil_2 {
+    display: flex;
+}
+
+.accueil_2_gauche {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accueil_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accueil_2_gauche h2 , .accueil_2_gauche p , .accueil_2_gauche .accueil_bouton {
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.accueil_bouton1 ,.accueil_bouton2 ,.accueil_bouton3 {
+    padding: 2vh 3vw 2vh 3vw;
+    background-color: #6EBB13;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+}
+
+.accueil_2_droite {
+    background-image: url('../img/20180831_203348.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.accueil_2_droite_1 {
+    background-image: url('../img/20220627_120445.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+h2 {
+    color: #FF6203 !important;
+    text-align: center;
+}
+
+.accueil_3 h2 , .accueil_4 h2 , .accueil_5 h2 {
+    text-align: center !important;
+}
+
+.liste_temoignages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.temoignages {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5vh 2vw 5vh 2vw;
+    background-color: #D9D9D9;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.logo_partenaire {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.index .card-body  {
+    height: 22vh;
+}
+
+/* -- nos missions */
+
+.hero_nos_missions {
+    background-image: url('../img/20220627_120445.jpg');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.titre_hero_nos_missions {
+    background-color: rgb(255, 255, 255, 0.7);
+    color: #015FA7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3vh 8vw 3vh 8vw;
+    margin-right: 3vw;
+}
+
+.nos_missions_1 {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.nos_missions_2 {
+    display: flex;
+}
+
+.nos_missions_2_gauche {
+    width: 50%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.nos_missions_2_droite {
+    background-image: url('../img/maison_2.png');
+    background-size: cover;
+    background-position: center;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.nos_missions_2_gauche h2 {
+    text-align: left;
+}
+
+.nos_missions_3 {
+    display: flex;
+}
+
+.nos_missions_3_droite {
+    width: 50%;
+    margin-left: 0vw;
+    margin-right: 5vw;
+}
+
+.nos_missions_3_gauche {
+    background-image: url('../img/logo_nos_missions.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.nos_missions_h2 {
+    text-align: left;
+}
+
+span {
+    color: #015FA7;
+}
+
+.nos_missions_4 {
+    display: flex;
+}
+
+.nos_missions_4_gauche {
+    width: 50%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.nos_missions_4_droite {
+    background-image: url('../img/cathy_1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 15px;
+}
+
+.nos_missions_5 {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.nos_missions_5 h2 {
+    text-align: left;
+}
+
+.nos_missions_5_photos_gauche {
+    
+    background-image: url('../img/voiture_1_blur.png');
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nos_missions_5_photos_gauche:hover {
+
+    transform: scale(1.05);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    
+}
+
+.nos_missions_5_photos_gauche h3 {
+  color: white;
+}
+
+
+.nos_missions_5_photos_droite {
+    background-image: url('../img/nos_missions_droite_blur.png');
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nos_missions_5_photos_droite h3 {
+    color: white;
+}
+
+.nos_missions_5_photos_droite:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.nos_missions_5_photos {
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* -- propriétaires et locataires -- */
+
+.hero_proprietaire {
+    background-image: url('../img/hero_proprietaire.png');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.para{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.titre{
+    text-align: left;
+}
+.Block3{
+    text-align: center;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para1{
+    text-align: left;
+}
+
+.propriétaire_size_image {
+    width: 40vw;
+    border-radius: 20px;
+}
+.locataire_size_image {
+    width: 45vw;
+    border-radius: 20px;
+}
+
+/* Contact */
+
+.hero_contact{
+    background-image: url('../img/hero.contact.png');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.loge3{
+    text-align: left;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.para_contact{
+    margin: 2rem 4rem 2rem 4rem;
+}
+
+.map{
+    margin: 45px ;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.local{
+    text-align: center;
+    margin-top: -2rem;
+}
+.inp{
+    width: 500px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+.btn2{
+    padding: 2vh 3vw 2vh 3vw;
+    background-color: #FDB515;
+    cursor: pointer;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.int{
+    margin-top: 2rem;
+}
+.fmap{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* -- partenaires -- */
+
+
+.hero_partenaires {
+    background-image: url('../img/hero_partenaire.png');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.partenaires_1 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.partenaires_photo_texte {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partenaires_p {
+    font-size: 24px;
+    color: #015FA7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partenaires_2_texte {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partenaires_2_photo {
+    background-image: url('../img/Ville_Issoire_Q_300dpi_transparent.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partenaires_3_photo {
+    background-image: url('../img/cdnlogo.com_rotary.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partenaires_4_photo {
+    background-image: url('../img/logo_cpam_transparent.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partenaires_photo_size {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.partenaires_5_photo {
+    background-image: url('../img/logo_puy_de_dome_2.svg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partenaires_6_photo {
+    background-image: url('../img/logo_ml.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partenaires_5 {
+    display: flex;
+    justify-content: center;
+}
+
+/* ************************************************************ */
+
+.loader-container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: #fff
+        url("https://media.giphy.com/media/W1fFapmqgqEf8RJ9TQ/giphy.gif") center
+        no-repeat;
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* -- qui somme-nous? -- */
+
+
+.hero_qsn {
+    background-image: url('../img/hero.contact.png');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.qsn_1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qsn_texte {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qsn_1_image {
+    background-image: url('../img/cathy.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.qsn_2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qsn_2_image {
+    background-image: url('../img/316407301_508425044658588_7793263675068179550_n\ 1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qsn_3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qsn_3_image {
+    background-image: url('../img/maison_2.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qsn_4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6EBB13;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    color: #f5f5f5;
+}
+
+.qsn_4_droite {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.qns .card-body {
+    height: 60vh;
+    padding: 0;
+}
+
+/* ************************************************************ */
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+/* **************************************************************************** */
+
+
+.titre2{
+    text-decoration: underline;
+}
+
+/* Contributions */
+
+.hero_contributions {
+    background-image: url('../img/contribution.png');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem 2rem 0 2rem;
+}
+
+.adhe{
+    /* display: flex;
+    flex-direction: column; */
+    margin: 4rem 2rem 0rem 4rem ;
+}
+
+.adhe2{
+    text-align: left;
+}
+.adhé{
+    width: 17vw;
+    height: 15vh;
+}
+.prix{
+    margin: auto;
+    margin-right: 3rem;
+    border-radius: 8px;
+    width: 476px;
+    height: 258px;
+}
+
+.loge{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0 5rem 5rem;
+}
+
+.donn{
+    display: flex;
+    justify-content: space-around;
+}
+.donn2{
+    text-align: left;
+}
+
+.dipl{
+    text-align: center;
+    margin-right: 3rem;
+}
